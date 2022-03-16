@@ -25,11 +25,7 @@ const ShoeIndex = ({ sortId, setSortId }) => {
           </Select>
         </Header>
         <Spacer size={34} />
-        {/* 
-          You may wish to comment out the <ShoeGrid> component.
-          We'll work on integrating it in the next exercise.
-        */}
-        {/* <ShoeGrid /> */}
+        <ShoeGrid />
       </MainColumn>
       <LeftColumn>
         <Breadcrumbs>
